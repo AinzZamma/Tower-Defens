@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d49bb82fc6686346b37ad86a993ed40, type: 3}
+  m_Name: TankEnemy
+  m_EditorClassIdentifier: 
+  Name: Tank
+  Health: 200
+  Speed: 1.5
+  Reward: 20
+  EnemyPrefab: {fileID: 8228601046066116289, guid: d6ea0e3192c2730488cd6ae35a42f88f, type: 3}
