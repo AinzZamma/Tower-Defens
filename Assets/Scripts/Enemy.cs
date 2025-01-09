@@ -1,4 +1,7 @@
 using UnityEngine;
+using System;
+
+
 
 public class Enemy : MonoBehaviour
 {
@@ -16,7 +19,7 @@ public class Enemy : MonoBehaviour
 
     protected Transform[] waypoints;
     protected int currentWaypointIndex = 0;
-
+    public event Action OnEnemyDestroyed;
     public int damageToPlayer = 1;
     public int goldReward = 10;    // Сколько золота дает враг за убийство
     private bool HasReachedEnd = false;
@@ -79,9 +82,7 @@ public class Enemy : MonoBehaviour
 
     protected virtual void OnReachEndPoint()
     {
-       
-        
-            GameManager.Instance.UpdateLives(-damageToPlayer);
+                         GameManager.Instance.UpdateLives(-damageToPlayer);
         
 
         Destroy(gameObject);
@@ -93,6 +94,7 @@ public class Enemy : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            OnEnemyDestroyed?.Invoke();
             OnDestroy();
         }
     }

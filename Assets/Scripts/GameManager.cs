@@ -70,10 +70,9 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene("GameOver");
     }
 
-    private void Victory()
+  public  void Victory()
     {
-        
-        SceneManager.LoadScene("Victory");
+          SceneManager.LoadScene("Victory");
     }
 
     private void UpdateUI()

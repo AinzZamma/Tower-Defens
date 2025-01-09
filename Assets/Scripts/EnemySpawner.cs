@@ -1,4 +1,7 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+
 
 public class EnemySpawner : MonoBehaviour
 {
@@ -16,6 +19,7 @@ public class EnemySpawner : MonoBehaviour
 
     private int currentWaveIndex = 0;
     private int enemiesRemainingToSpawn;
+    private int enemiesRemainingAlive;
     private bool isSpawning = false;
 
     private void Start()
@@ -41,13 +45,15 @@ public class EnemySpawner : MonoBehaviour
         {
             Wave currentWave = waves[currentWaveIndex];
             enemiesRemainingToSpawn = currentWave.count;
+            enemiesRemainingAlive = currentWave.count; // Устанавливаем кол-во врагов в текущей волне
+
             isSpawning = true;
             InvokeRepeating(nameof(SpawnEnemy), 0f, currentWave.spawnInterval);
         }
         else
         {
             Debug.Log("All waves completed!");
-            isSpawning = false;
+            CheckVictoryCondition();
         }
     }
 
@@ -58,28 +64,46 @@ public class EnemySpawner : MonoBehaviour
             Wave currentWave = waves[currentWaveIndex];
             GameObject enemy = Instantiate(currentWave.enemyPrefab, transform.position, Quaternion.identity);
 
-            // Уведомляем GameManager о новом враге
+            // Уведомляем GameManager о спавне врага
             GameManager.Instance.EnemySpawned();
 
+            // Подписываемся на событие уничтожения
             Enemy enemyComponent = enemy.GetComponent<Enemy>();
             if (enemyComponent != null)
             {
                 enemyComponent.Initialize(waypoints);
+                enemyComponent.OnEnemyDestroyed += OnEnemyDestroyed;
             }
             else
             {
-                Debug.LogError($"Spawned object {enemy.name} does not have an Enemy component. Destroying it.");
                 Destroy(enemy);
             }
 
             enemiesRemainingToSpawn--;
+        }
+        else
+        {
+            CancelInvoke(nameof(SpawnEnemy));
+            currentWaveIndex++;
+            Invoke(nameof(StartNextWave), timeBetweenWaves);
+        }
+    }
 
-            if (enemiesRemainingToSpawn == 0)
-            {
-                CancelInvoke(nameof(SpawnEnemy));
-                currentWaveIndex++;
-                Invoke(nameof(StartNextWave), timeBetweenWaves);
-            }
+    private void OnEnemyDestroyed()
+    {
+        enemiesRemainingAlive--; // Уменьшаем количество оставшихся врагов
+
+        // Проверяем условие победы только после всех волн и врагов
+        CheckVictoryCondition();
+    }
+
+    private void CheckVictoryCondition()
+    {
+        if (enemiesRemainingAlive <= 0 && currentWaveIndex >= waves.Length)
+        {
+            GameManager.Instance.Victory();
         }
     }
 }
+
+
