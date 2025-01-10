@@ -1,136 +1,174 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
-,{ "pid":12345, "tid":0, "ts":1736513059898533, "dur":18774, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1736513059917319, "dur":478, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1736513059917877, "dur":364, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1736513059918417, "dur":91, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/level2" }}
-,{ "pid":12345, "tid":0, "ts":1736513059918596, "dur":90, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/level4.resS" }}
-,{ "pid":12345, "tid":0, "ts":1736513059918832, "dur":99, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/level8" }}
-,{ "pid":12345, "tid":0, "ts":1736513059919381, "dur":113, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/sharedassets5.assets.resS" }}
-,{ "pid":12345, "tid":0, "ts":1736513059919729, "dur":66, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1736513059919855, "dur":59, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.AudioModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1736513059919960, "dur":65, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1736513059920874, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.UIElementsModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1736513059920957, "dur":53, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
-,{ "pid":12345, "tid":0, "ts":1736513059921711, "dur":68, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/System.Data.DataSetExtensions.dll" }}
-,{ "pid":12345, "tid":0, "ts":1736513059918270, "dur":4460, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1736513059922732, "dur":2455506, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1736513062378239, "dur":243, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1736513062378603, "dur":1191, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
-,{ "pid":12345, "tid":1, "ts":1736513059918821, "dur":3929, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1736513059922753, "dur":345, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1736513059923099, "dur":219, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1736513059923319, "dur":3436, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1736513059926804, "dur":695, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1736513059927505, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
-,{ "pid":12345, "tid":1, "ts":1736513059927728, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1736513059927943, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1736513059928229, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1736513059928448, "dur":263, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1736513059928756, "dur":128, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\DiO\\Tower DeFeNs\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1736513059928755, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/Unity.VisualScripting.State.dll" }}
-,{ "pid":12345, "tid":1, "ts":1736513059928919, "dur":890, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\DiO\\Tower DeFeNs\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1736513059928917, "dur":894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.UI.dll" }}
-,{ "pid":12345, "tid":1, "ts":1736513059929811, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":1, "ts":1736513059930007, "dur":2448213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736513059919415, "dur":3397, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736513059922813, "dur":332, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736513059923146, "dur":3618, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736513059926804, "dur":585, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736513059927420, "dur":355, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736513059927798, "dur":363, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736513059928181, "dur":190, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736513059928382, "dur":257, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736513059928739, "dur":403, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\DiO\\Tower DeFeNs\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":2, "ts":1736513059928737, "dur":406, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/Unity.VisualScripting.Flow.dll" }}
-,{ "pid":12345, "tid":2, "ts":1736513059929221, "dur":56, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
-,{ "pid":12345, "tid":2, "ts":1736513059929731, "dur":118, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/sharedassets4.assets.resS" }}
-,{ "pid":12345, "tid":2, "ts":1736513059929854, "dur":234, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":2, "ts":1736513059930094, "dur":2448124, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736513059918810, "dur":3932, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736513059922746, "dur":3997, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736513059926768, "dur":188, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":3, "ts":1736513059926962, "dur":105, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1736513059927082, "dur":9061, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":3, "ts":1736513059926961, "dur":9439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1736513059936943, "dur":2438747, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1736513062376719, "dur":798, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1736513062376718, "dur":801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/boot.config" }}
-,{ "pid":12345, "tid":3, "ts":1736513062377545, "dur":644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/boot.config" }}
-,{ "pid":12345, "tid":4, "ts":1736513059919158, "dur":3635, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736513059922798, "dur":336, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736513059923134, "dur":3617, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736513059926757, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/UnityCrashHandler64.exe" }}
-,{ "pid":12345, "tid":4, "ts":1736513059926874, "dur":870, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736513059927789, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736513059928058, "dur":448, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736513059928525, "dur":326, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":4, "ts":1736513059928860, "dur":419, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\DiO\\Tower DeFeNs\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1736513059928859, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/Unity.TextMeshPro.dll" }}
-,{ "pid":12345, "tid":4, "ts":1736513059929444, "dur":53, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
-,{ "pid":12345, "tid":4, "ts":1736513059929784, "dur":60, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/ScriptingAssemblies.json" }}
-,{ "pid":12345, "tid":4, "ts":1736513059929993, "dur":2448241, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736513059918907, "dur":3852, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736513059922763, "dur":407, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736513059923171, "dur":3582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736513059926776, "dur":50, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\DiO\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1736513059926758, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
-,{ "pid":12345, "tid":5, "ts":1736513059926828, "dur":858, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736513059927723, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736513059928022, "dur":321, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736513059928353, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736513059928522, "dur":258, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736513059928785, "dur":568, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\DiO\\Tower DeFeNs\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1736513059928784, "dur":570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/Unity.VisualScripting.Core.dll" }}
-,{ "pid":12345, "tid":5, "ts":1736513059929355, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":5, "ts":1736513059929450, "dur":200, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.LocalizationModule.dll" }}
-,{ "pid":12345, "tid":5, "ts":1736513059929734, "dur":85, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/sharedassets3.assets" }}
-,{ "pid":12345, "tid":5, "ts":1736513059930003, "dur":2448230, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736513059919047, "dur":3721, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736513059922772, "dur":339, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736513059923112, "dur":202, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736513059923315, "dur":3444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736513059926803, "dur":670, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736513059927485, "dur":162, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\DiO\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
-,{ "pid":12345, "tid":6, "ts":1736513059927478, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/MonoBleedingEdge/etc/mono/4.0/web.config" }}
-,{ "pid":12345, "tid":6, "ts":1736513059927648, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736513059927931, "dur":217, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736513059928159, "dur":346, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736513059928524, "dur":466, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736513059928996, "dur":253, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\DiO\\Tower DeFeNs\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":6, "ts":1736513059928995, "dur":255, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":6, "ts":1736513059929632, "dur":69, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":6, "ts":1736513059929803, "dur":1970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/Managed/Assembly-CSharp.dll" }}
-,{ "pid":12345, "tid":6, "ts":1736513059931790, "dur":2446435, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736513059919141, "dur":3640, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736513059922786, "dur":590, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736513059923377, "dur":3384, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736513059926762, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/MonoBleedingEdge/etc/mono/4.5/web.config" }}
-,{ "pid":12345, "tid":7, "ts":1736513059926823, "dur":933, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736513059927790, "dur":212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736513059928007, "dur":481, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
-,{ "pid":12345, "tid":7, "ts":1736513059928006, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs.exe" }}
-,{ "pid":12345, "tid":7, "ts":1736513059928527, "dur":388, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736513059928922, "dur":196, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\DiO\\Tower DeFeNs\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":7, "ts":1736513059928921, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/Unity.Timeline.dll" }}
-,{ "pid":12345, "tid":7, "ts":1736513059929351, "dur":61, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.SubstanceModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1736513059929660, "dur":93, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.ARModule.dll" }}
-,{ "pid":12345, "tid":7, "ts":1736513059929861, "dur":291, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":7, "ts":1736513059930156, "dur":2448065, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736513059919330, "dur":3473, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736513059922807, "dur":361, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736513059923169, "dur":3580, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736513059926764, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736513059926898, "dur":668, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736513059927591, "dur":155, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\DiO\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1736513059927578, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
-,{ "pid":12345, "tid":8, "ts":1736513059927748, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736513059927935, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736513059928093, "dur":262, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736513059928366, "dur":203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736513059928578, "dur":477, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":8, "ts":1736513059929447, "dur":131, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
-,{ "pid":12345, "tid":8, "ts":1736513059929776, "dur":6369, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":8, "ts":1736513059929775, "dur":6372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/RuntimeInitializeOnLoads.json" }}
-,{ "pid":12345, "tid":8, "ts":1736513059936190, "dur":2442049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
-,{ "pid":12345, "tid":0, "ts":1736513062383257, "dur":652, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid":12345, "tid":0, "ts":1736514880891141, "dur":1246, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736514880892398, "dur":146, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736514880892601, "dur":315, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736514880893040, "dur":83, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/level1" }}
+,{ "pid":12345, "tid":0, "ts":1736514880893371, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/level7" }}
+,{ "pid":12345, "tid":0, "ts":1736514880893639, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":0, "ts":1736514880893769, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":0, "ts":1736514880893938, "dur":77, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":0, "ts":1736514880894538, "dur":93, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1736514880894706, "dur":75, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1736514880892945, "dur":3800, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736514880896747, "dur":131071, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736514881027819, "dur":215, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736514881028034, "dur":55, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736514881028223, "dur":1168, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1736514880893398, "dur":3398, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736514880896800, "dur":319, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736514880897120, "dur":1233, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736514880898378, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736514880898438, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1736514880898507, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736514880898675, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1736514880898736, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736514880898855, "dur":111, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Logs/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1736514880898975, "dur":421, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\DiO\\Tower DeFeNs\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736514880898967, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736514880899710, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1736514880899847, "dur":125, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1736514880900044, "dur":3404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":1, "ts":1736514880903475, "dur":4413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":1, "ts":1736514880907922, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1736514880909960, "dur":887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/level5.resS" }}
+,{ "pid":12345, "tid":1, "ts":1736514880910871, "dur":1771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/level4" }}
+,{ "pid":12345, "tid":1, "ts":1736514880912665, "dur":2394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/level2" }}
+,{ "pid":12345, "tid":1, "ts":1736514880915094, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":1, "ts":1736514880917104, "dur":110701, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736514880893234, "dur":3522, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736514880896760, "dur":1573, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736514880898384, "dur":107, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1736514880898504, "dur":14853, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1736514880898383, "dur":15306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1736514880913987, "dur":63, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1736514880914287, "dur":110489, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1736514881025988, "dur":1094, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1736514881025987, "dur":1097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1736514881027108, "dur":664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1736514880893310, "dur":3470, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736514880896783, "dur":297, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736514880897080, "dur":1261, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736514880898362, "dur":61, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\DiO\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1736514880898344, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":3, "ts":1736514880898467, "dur":130, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736514880898629, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736514880898990, "dur":592, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\DiO\\Tower DeFeNs\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736514880898989, "dur":594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736514880899599, "dur":115, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736514880899923, "dur":57, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1736514880900043, "dur":3551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":3, "ts":1736514880907073, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736514880903623, "dur":3528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1736514880907168, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1736514880907167, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1736514880907296, "dur":1588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1736514880908919, "dur":686, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736514880909608, "dur":3939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/level8" }}
+,{ "pid":12345, "tid":3, "ts":1736514880914814, "dur":329, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1736514880913569, "dur":1581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1736514880915163, "dur":112656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736514880893261, "dur":3502, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736514880896766, "dur":309, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736514880897077, "dur":194, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736514880897271, "dur":1076, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736514880898367, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\DiO\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1736514880898348, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1736514880898450, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1736514880898531, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736514880898742, "dur":683, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":4, "ts":1736514880898741, "dur":685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs.exe" }}
+,{ "pid":12345, "tid":4, "ts":1736514880899684, "dur":171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736514880899855, "dur":164, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1736514880900102, "dur":6519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1736514880909432, "dur":279, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1736514880906676, "dur":3082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1736514880909816, "dur":797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/level7.resS" }}
+,{ "pid":12345, "tid":4, "ts":1736514880910745, "dur":2841, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1736514880913654, "dur":3620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1736514880917312, "dur":110489, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736514880893299, "dur":3473, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736514880896776, "dur":291, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736514880897067, "dur":237, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736514880897304, "dur":1038, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736514880898459, "dur":195, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\DiO\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1736514880898458, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1736514880898656, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736514880898722, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1736514880898803, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736514880898964, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736514880899099, "dur":325, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\DiO\\Tower DeFeNs\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736514880899098, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736514880899425, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736514880899520, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736514880899606, "dur":140, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1736514880899766, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736514880899870, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736514880900015, "dur":213, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736514880900341, "dur":4323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1736514880907087, "dur":51, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1736514880904736, "dur":2418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1736514880907170, "dur":6194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1736514880907169, "dur":6197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1736514880913436, "dur":3329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1736514880916779, "dur":111025, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736514880893389, "dur":3399, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736514880896792, "dur":343, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736514880897135, "dur":1210, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736514880898380, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736514880898463, "dur":215, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\DiO\\2022.3.47f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":6, "ts":1736514880898446, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1736514880898679, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736514880898972, "dur":109, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\DiO\\Tower DeFeNs\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736514880898971, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736514880899102, "dur":175, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\DiO\\Tower DeFeNs\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736514880899101, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736514880899541, "dur":3502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1736514880903143, "dur":3267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1736514880906477, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1736514880909586, "dur":283, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1736514880908602, "dur":1276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/level8.resS" }}
+,{ "pid":12345, "tid":6, "ts":1736514880909923, "dur":1023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/level6.resS" }}
+,{ "pid":12345, "tid":6, "ts":1736514880910975, "dur":2286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/level3.resS" }}
+,{ "pid":12345, "tid":6, "ts":1736514880913292, "dur":1816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/level1.resS" }}
+,{ "pid":12345, "tid":6, "ts":1736514880915120, "dur":112703, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736514880893438, "dur":3368, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736514880896809, "dur":287, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736514880897097, "dur":1242, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736514880898344, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1736514880898441, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736514880898620, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736514880899000, "dur":311, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\DiO\\Tower DeFeNs\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736514880898999, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736514880899529, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1736514880899841, "dur":58, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736514880899958, "dur":255, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1736514880900228, "dur":3676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1736514880903937, "dur":4178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1736514880908146, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/resources.assets" }}
+,{ "pid":12345, "tid":7, "ts":1736514880909930, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/level6" }}
+,{ "pid":12345, "tid":7, "ts":1736514880911369, "dur":2071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/level3" }}
+,{ "pid":12345, "tid":7, "ts":1736514880913469, "dur":2550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1736514880916039, "dur":111778, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736514880893508, "dur":3310, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736514880896818, "dur":300, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736514880897118, "dur":1220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736514880898351, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736514880898531, "dur":161, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736514880898991, "dur":406, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\DiO\\Tower DeFeNs\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736514880898990, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736514880899599, "dur":142, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736514880899828, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736514880899998, "dur":146, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles Logs/Tower DeFeNs_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1736514880900157, "dur":4348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":8, "ts":1736514880906989, "dur":127, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736514880904569, "dur":2561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1736514880909487, "dur":291, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736514880907190, "dur":2597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1736514880909823, "dur":847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/level7" }}
+,{ "pid":12345, "tid":8, "ts":1736514880910717, "dur":1859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/level5" }}
+,{ "pid":12345, "tid":8, "ts":1736514880914798, "dur":74, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1736514880912621, "dur":2343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1736514880915049, "dur":2065, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Logs/Tower DeFeNs_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1736514880917126, "dur":110677, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1736514881032708, "dur":874, "ph":"X", "name": "ProfilerWriteOutput" }
 ,
