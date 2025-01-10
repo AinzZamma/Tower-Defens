@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
+
+    public static EnemySpawner Instance { get; private set; }
     [System.Serializable]
     public class Wave
     {
@@ -21,6 +23,19 @@ public class EnemySpawner : MonoBehaviour
     private int enemiesRemainingToSpawn;
     private int enemiesRemainingAlive;
     private bool isSpawning = false;
+
+
+    private void Awake()
+    {
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
 
     private void Start()
     {
@@ -89,12 +104,21 @@ public class EnemySpawner : MonoBehaviour
         }
     }
 
+    public bool AllWavesCompleted()
+    {
+        return currentWaveIndex >= waves.Length && enemiesRemainingAlive <= 0;
+    }
+
+
     private void OnEnemyDestroyed()
     {
         enemiesRemainingAlive--; // Уменьшаем количество оставшихся врагов
 
-        // Проверяем условие победы только после всех волн и врагов
-        CheckVictoryCondition();
+        if (enemiesRemainingAlive <= 0 && currentWaveIndex >= waves.Length)
+        {
+            CheckVictoryCondition();
+        }
+
     }
 
     private void CheckVictoryCondition()

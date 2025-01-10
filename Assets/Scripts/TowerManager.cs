@@ -4,7 +4,7 @@ public class TowerManager : MonoBehaviour
 {
     public static TowerManager Instance;
 
-    public GameObject[] TowerPrefabs; // Массив башен, которые можно выбрать
+    public GameObject[] TowerPrefabs; 
     private GameObject selectedTowerPrefab;
 
     private void Awake()

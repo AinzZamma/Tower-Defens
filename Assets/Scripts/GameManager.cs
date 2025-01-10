@@ -10,7 +10,8 @@ public class GameManager : MonoBehaviour
     public int playerGold = 100;  
 
     public TextMeshProUGUI livesText; 
-    public TextMeshProUGUI goldText;  
+    public TextMeshProUGUI goldText;
+    
 
     private int enemiesRemaining = 0; 
 
@@ -58,7 +59,7 @@ public class GameManager : MonoBehaviour
         enemiesRemaining--;
         UpdateGold(goldReward);
 
-        if (enemiesRemaining <= 0)
+        if (enemiesRemaining <= 0 && EnemySpawner.Instance.AllWavesCompleted())
         {
             Victory();
         }

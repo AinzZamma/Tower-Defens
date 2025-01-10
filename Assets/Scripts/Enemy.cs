@@ -1,8 +1,6 @@
 using UnityEngine;
 using System;
 
-
-
 public class Enemy : MonoBehaviour
 {
     public EnemyData EnemyData;
@@ -82,9 +80,7 @@ public class Enemy : MonoBehaviour
 
     protected virtual void OnReachEndPoint()
     {
-                         GameManager.Instance.UpdateLives(-damageToPlayer);
-        
-
+        GameManager.Instance.UpdateLives(-damageToPlayer);
         Destroy(gameObject);
     }
 
@@ -94,18 +90,33 @@ public class Enemy : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            OnEnemyDestroyed?.Invoke();
-            OnDestroy();
+            OnEnemyDestroyed?.Invoke(); // Событие для спавнера
+            DestroyEnemy();             // Уничтожение врага
         }
     }
+    private void DestroyEnemy()
+    {
+        if (GameManager.Instance != null && !HasReachedEnd)
+        {
+            GameManager.Instance.EnemyDefeated(goldReward); // Начисляем золото
+        }
 
-    private void OnDestroy()
+        Destroy(gameObject); // Удаляем врага
+    }
+
+
+
+
+    private void Die()
     {
         if (GameManager.Instance != null && !HasReachedEnd)
         {
             GameManager.Instance.EnemyDefeated(goldReward);
         }
+
+        Destroy(gameObject); // Уничтожаем объект
     }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("EndPoint"))
