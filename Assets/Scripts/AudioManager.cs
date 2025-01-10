@@ -1,5 +1,5 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
@@ -42,7 +42,44 @@ public class AudioManager : MonoBehaviour
     {
         PlayMusic(gameoverMusic);
     }
-    
+
+    private void OnEnable()
+    {
+        SceneManager.sceneLoaded += OnSceneLoaded; // Подписка на событие загрузки сцены
+    }
+
+    private void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded; // Отписка от события
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        // Определяем музыку для текущей сцены
+        switch (scene.name)
+        {
+            case "MainMenu":
+                PlayMenuMusic();
+                break;
+            case "Level1":
+            case "Level2":
+                PlayLevelMusic();
+                break;
+            case "Victory":
+                PlayVictoryMusic();
+                break;
+            default:
+                Debug.LogWarning("No music assigned for this scene!");
+                break;
+        }
+    }
+
+    public void SetVolume(float volume)
+    {
+        audioSource.volume = Mathf.Clamp01(volume); // Устанавливаем громкость от 0 до 1
+    }
+
+
     private void PlayMusic(AudioClip clip)
     {
         if (audioSource.isPlaying)
