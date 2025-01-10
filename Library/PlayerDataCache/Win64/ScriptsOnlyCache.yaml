@@ -48,6 +48,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Slider
   serializedClasses:
     Assembly-CSharp:
+    - AudioManager/SceneMusic
     - EnemySpawner/Wave
     Unity.TextMeshPro:
     - TMPro.FaceInfo_Legacy
@@ -1013,7 +1014,7 @@ ScriptsOnlyBuild:
     className: UnityOnBecameVisibleMessageListener
   - hash:
       serializedVersion: 2
-      Hash: a04188dc0e422a1e40ff8f0f3cfa421a
+      Hash: caea89471cbfd8d48d710ae0c1aa5d4b
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: AudioManager

@@ -811,9 +811,13 @@ PrefabInstance:
       value: AudioManager
       objectReference: {fileID: 0}
     - target: {fileID: 1617004116505620426, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1617004116505620426, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 8d9616a90d5c8844196c94e289641e22, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 1617004116505620426, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
       propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
       value: 0.02
@@ -866,6 +870,74 @@ PrefabInstance:
       propertyPath: levelMusic
       value: 
       objectReference: {fileID: 8300000, guid: f78f4ca8e32401546b41533bc2aefbe1, type: 3}
+    - target: {fileID: 6332086461756989600, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: sceneMusics.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6332086461756989600, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: sceneMusics.Array.data[0].music
+      value: 
+      objectReference: {fileID: 8300000, guid: 8d9616a90d5c8844196c94e289641e22, type: 3}
+    - target: {fileID: 6332086461756989600, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: sceneMusics.Array.data[1].music
+      value: 
+      objectReference: {fileID: 8300000, guid: f78f4ca8e32401546b41533bc2aefbe1, type: 3}
+    - target: {fileID: 6332086461756989600, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: sceneMusics.Array.data[2].music
+      value: 
+      objectReference: {fileID: 8300000, guid: 30ab12e20037db643a4be54b2d57e1b6, type: 3}
+    - target: {fileID: 6332086461756989600, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: sceneMusics.Array.data[3].music
+      value: 
+      objectReference: {fileID: 8300000, guid: 13c7388e7a5913246bc1fa9626cc5a09, type: 3}
+    - target: {fileID: 6332086461756989600, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: sceneMusics.Array.data[4].music
+      value: 
+      objectReference: {fileID: 8300000, guid: dc84a656e65f9be40b82e7761ee6dc7b, type: 3}
+    - target: {fileID: 6332086461756989600, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: sceneMusics.Array.data[5].music
+      value: 
+      objectReference: {fileID: 8300000, guid: b0b9dbcd48a348e43868e9588784ec4d, type: 3}
+    - target: {fileID: 6332086461756989600, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: sceneMusics.Array.data[6].music
+      value: 
+      objectReference: {fileID: 8300000, guid: 8f9c6d79d362efc478373a730177a927, type: 3}
+    - target: {fileID: 6332086461756989600, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: sceneMusics.Array.data[7].music
+      value: 
+      objectReference: {fileID: 8300000, guid: 3dee8643354e60d489b9ed41e8da87bf, type: 3}
+    - target: {fileID: 6332086461756989600, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: sceneMusics.Array.data[0].sceneName
+      value: MainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6332086461756989600, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: sceneMusics.Array.data[1].sceneName
+      value: LevelMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 6332086461756989600, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: sceneMusics.Array.data[2].sceneName
+      value: Forest
+      objectReference: {fileID: 0}
+    - target: {fileID: 6332086461756989600, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: sceneMusics.Array.data[3].sceneName
+      value: Desert
+      objectReference: {fileID: 0}
+    - target: {fileID: 6332086461756989600, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: sceneMusics.Array.data[4].sceneName
+      value: Winter
+      objectReference: {fileID: 0}
+    - target: {fileID: 6332086461756989600, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: sceneMusics.Array.data[5].sceneName
+      value: Vulcano
+      objectReference: {fileID: 0}
+    - target: {fileID: 6332086461756989600, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: sceneMusics.Array.data[6].sceneName
+      value: Victory
+      objectReference: {fileID: 0}
+    - target: {fileID: 6332086461756989600, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: sceneMusics.Array.data[7].sceneName
+      value: GameOver
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

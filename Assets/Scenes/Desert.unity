@@ -197,6 +197,10 @@ PrefabInstance:
       value: AudioManager
       objectReference: {fileID: 0}
     - target: {fileID: 1617004116505620426, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1617004116505620426, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: 13c7388e7a5913246bc1fa9626cc5a09, type: 3}
@@ -244,6 +248,18 @@ PrefabInstance:
       propertyPath: levelMusic
       value: 
       objectReference: {fileID: 8300000, guid: 13c7388e7a5913246bc1fa9626cc5a09, type: 3}
+    - target: {fileID: 6332086461756989600, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: sceneMusics.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6332086461756989600, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: sceneMusics.Array.data[0].music
+      value: 
+      objectReference: {fileID: 8300000, guid: 13c7388e7a5913246bc1fa9626cc5a09, type: 3}
+    - target: {fileID: 6332086461756989600, guid: 5bcbe1c2217c1cb4d8f8391f9417805d, type: 3}
+      propertyPath: sceneMusics.Array.data[0].sceneName
+      value: Desert
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
