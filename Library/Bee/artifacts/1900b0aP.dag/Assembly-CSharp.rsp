@@ -310,6 +310,7 @@
 -analyzer:"D:/DiO/2022.3.47f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/AirEnemy.cs"
 "Assets/Scripts/AreaTower.cs"
+"Assets/Scripts/BackButton.cs"
 "Assets/Scripts/BossEnemy.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/EnemyData.cs"
